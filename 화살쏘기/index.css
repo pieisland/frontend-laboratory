@@ -1,0 +1,30 @@
+@keyframes arrow {
+  0% {
+    top: 0px;
+  }
+  to {
+    top: 300px;
+  }
+}
+
+.arrow {
+  width: 50px;
+  height: 25px;
+  background-color: brown;
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+
+  /* animation: arrow 1s ease-in infinite Alternate; */
+}
+
+.ball {
+  width: 50px;
+  height: 10px;
+  background-color: red;
+}
+/* 
+.ball:hover {
+  transform: translate(200px, 0);
+} */
