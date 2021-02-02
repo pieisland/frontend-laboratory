@@ -1,0 +1,38 @@
+@keyframes move {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(100px, 20px);
+  }
+}
+
+#ball {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  margin-top: 20px;
+
+  /* 이렇게하면.. 타임라인에서도 그렇게 보인단말이다.. */
+  /* transition: all 1s; */
+  animation: move 1s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
+
+#slider {
+  position: relative;
+  width: 100px;
+  height: 15px;
+  background-color: gold;
+  margin-top: 20px;
+}
+
+#bar {
+  position: absolute;
+  width: 3%;
+  height: 100%;
+  background-color: red;
+}
