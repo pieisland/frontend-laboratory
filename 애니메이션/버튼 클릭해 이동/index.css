@@ -1,0 +1,15 @@
+
+.arrow {
+  position: relative;
+  width: 50px;
+  height: 10px;
+  background-color: red;
+  /* transform: scale(1); */
+  transition: all 1s ease-in;
+
+  /* left: 30px; */
+}
+
+.arrow:hover {
+  transform: scale(3);
+}
